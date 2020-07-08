@@ -1,0 +1,10 @@
+config:
+  id: access id of your account
+  secret: secret of your account
+  loc: cn-hangzhou
+  domain: your.domain
+rr_list:
+  - rr.list
+  - list.all.rrs
+  - which.need.ddns
+  - use @ to specify original domain
