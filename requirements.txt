@@ -1,2 +1,4 @@
 aliyun-python-sdk-alidns==2.0.18
 aliyun-python-sdk-core==2.13.20
+PyYAML==5.3.1
+requests==2.24.0
