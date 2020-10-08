@@ -82,5 +82,5 @@ if __name__ == "__main__":
 
     # update challenge record
     print("Update challenge to", value)
-    # update_domain_record(client, rid, value)
+    update_domain_record(client, rid, value)
 
