@@ -135,7 +135,7 @@ if __name__ == "__main__":
     records = query_domain_records(client)
     records = json.loads(records)["DomainRecords"]["Record"]
     for r in records:
-        if r["RR"] in rr_list and r["Value"] != ip:
+        if r["Type"] == "A" and r["RR"] in rr_list and r["Value"] != ip:
             update_domain_record(client, ip, r)
             print(r["RR"])
 
